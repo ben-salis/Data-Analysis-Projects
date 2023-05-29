@@ -35,4 +35,4 @@ I imposed the condition that 1 < **ride_length** < 1440 (note: **ride_length** w
 ## Analysis
 Big Query and Google Sheets were instrumental in the analysis of this redefined dataset. As mentioned before, I saw fit to take a granular look at trends in each month. Through the COUNT function I could keep track of trips per customer-tyype. Through **ride_length** and **day_of_week** I was able to use the AVG function to find a the average ride length per day for a given month. 
 
-Once these general calculations were made in Big Query, I combined the monthly tables in Sheets. The table was a bit too long for useful analysis, so I used a pivot table to make it wide. The visualizations were made in Sheets as well. 
+Once these general calculations were made in Big Query, I combined the monthly tables in Sheets. The table was a bit too long for useful analysis, so I used a pivot table to make it wide. The visualizations were made in [Sheets](https://docs.google.com/spreadsheets/d/1CSMAeb5JT4J9uRJWp2pImGxAOl9dgU8vEK888TsJ43Q/edit?usp=sharing) as well. 
