@@ -1,5 +1,5 @@
 # Cyclistic Historical Data
-This data is provided by the Divvy bikeshare company, based in Chicago. The scenario surrounding the case study is fake, and provided by the Google Data Analytics Professional Certificate program. Via this [license](https://ride.divvybikes.com/data-license-agreement), I am able to use Divvy's data for my own analysis. Going forward, Cyclistic will be the name used to refer to the stakeholder company.
+This data is provided by the Divvy bikeshare company, based in Chicago. The scenario surrounding the case study is fictional, and provided by the Google Data Analytics Professional Certificate program. Via this [license](https://ride.divvybikes.com/data-license-agreement), I am able to use Divvy's data for my own analysis. Going forward, Cyclistic will be the name used to refer to the stakeholder company.
 
 ## Introduction
 Cyclistic has two types of customers that are classified as: **member** or **casual**. 
