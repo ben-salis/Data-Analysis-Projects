@@ -43,3 +43,10 @@ In this section it is revealed that there is a great disparity between member an
     Figure 6: Count of Bike Types per Trip Type
     
 I saw fit to do away with the constraint of trips being longer or shorter than a day for this analysis. It felt unecessary considering my interest was in what types of bikes are more popular. Figure 6 shows that members tend to use classic bikes (although one could argue that the classic:electric ratio is almost 1:1). There are certainly more casual trips with electric bikes than there are those with classic bikes. Finally, it seems that members did not use docked bikes at all in the past year. 
+
+# Conclusion
+This analysis was a precursory one, meant to deliver insights toward later investigations. Now, Cyclistic can confidently say that there is a distinct difference between member and casual trips. Members take more trips, but their rides are shorter than casual customers. On the other hand, casual trips tend to last longer and even go on for more than a day. This means they would be charged for multiple full-day passes upon finishing their trip. 
+
+I recommend surveying the customer pool and asking a few questions. This data alone cannot convert casual customers into members, but it does provide a thread to follow. Why do customers prefer bikes? It could be for health, convenience, or novelty. In this investigation, I found that members still ride bikes in colder seasons. What motivates them to do so, and could that be marketed toward the casual base? Are casual customers aware of the money they could save by forgoing passes and becoming members, instead? Exactly how much could they save? 
+
+These are questions that could be answered with more data. Stakeholders will need to decide where they would like to go from here, based on my recommendations. 
