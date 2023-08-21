@@ -14,7 +14,7 @@ I believe I could use this data to design a predictive model in the future and w
 My tentative goal was to identify majority and minority diamonds with regard to color. Did prices support the respective scarcity or surplus? 
 
 Barring this, I hoped to design a dashboard that would enable someone to gather pricing information on a specific diamond of their choosing.
-The final product can be found [here](https://public.tableau.com/views/DiamondShoppingDashboard/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link). Feel free to click around to filter the dashboard down. 
+The final product can be found on [Tableau](https://public.tableau.com/views/DiamondShoppingDashboard/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link). Feel free to click around to filter the dashboard down. 
 
 ## Definitions
 
@@ -42,4 +42,17 @@ The final product can be found [here](https://public.tableau.com/views/DiamondSh
 *z* : Measure used to describe the depth[mm] of a diamond. 
 
 
+## Process 
+As stated above, the raw data did not require restructuring or table joins, so I decided to forego SQL for this analysis. The total row count was enough for a spreadsheet and the validation tools in Sheets were adept for my needs. Upon sorting the columns, I found a few choice diamonds with errant measuremeents. 
+
+The diamonds possessed attributes for width, length, and depth. Whether through an error of recording or some other means, there were a few that had 0 logged in these columns. These diamonds were removed, since this cast doubt as to the validity of their other values.
+
+Now, what traits did I actually need? The dataset possessed a lot of information, but not all of it was interesting. Color and price were necessary, and I knew I'd be counting diamonds for distribution plots. Diamond size was sure to reveal interesting trends, but what metric was best suited for size? 
+
+Between carat, table, depth, x, y, and z, at some point our descriptive coverage becomes superfluous. Best to choose some and see how adequate the choice was during analysis. I decided to keep carat, table percentage, and depth percentage. Understanding that table and depth percentages include the last three metrics helped that decision along. 
+
+## Analysis
+With the data structured like it was, a pivot table was the easy choice. It would deploy my aggregate functions and answer the questions I had quickly enough. 
+
+I have included the pivot tables I generated in this folder, but when it came to visualizations I did not use them for my graphs. 
 
