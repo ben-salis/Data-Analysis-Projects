@@ -6,9 +6,9 @@ Emphasis will be put on correlation and any trends seen therein.
 
 ## Introduction 
 
-While the context provided on the Kaggle data cardis sufficient for analysis purposes, further research revealed some inconsistencies with
+While the context provided on the Kaggle data card is sufficient for analysis purposes, further research revealed some inconsistencies with
 certain definitions. That being said, upon preparing the data for analysis I found very little cleaning or sorting to do. Despite this, 
-I was still interested in what the data might reveal, and settled on an explorative analysis with a focus on visualizations. 
+I was still interested in what the data might reveal, and settled on an explorative analysis with a focus on visualizations. Spreadsheets proved to be satisfactory.
 I believe I could use this data to design a predictive model in the future and will likely do this fairly soon. 
 
 My tentative goal was to identify majority and minority diamonds with regard to color. Did prices support the resulting scarcity or surplus? 
