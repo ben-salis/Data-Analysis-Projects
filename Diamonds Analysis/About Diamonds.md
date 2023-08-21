@@ -1,7 +1,7 @@
 # Snapshot Pricelist
 
 This dataset was provided by a user on Kaggle for training use. It can be found [here](https://www.kaggle.com/datasets/shivam2503/diamonds). 
-It should considered a snapshot of the collective traits of a group of diamonds, with no time component being presented. 
+The data should be considered a snapshot of the collective traits of a group of diamonds, with no time component being presented. 
 Emphasis will be put on correlation and any trends seen therein. 
 
 ## Introduction 
@@ -11,7 +11,7 @@ certain definitions. That being said, upon preparing the data for analysis I fou
 I was still interested in what the data might reveal, and settled on an explorative analysis with a focus on visualizations. Spreadsheets proved to be satisfactory.
 I believe I could use this data to design a predictive model in the future and will likely do this fairly soon. 
 
-My tentative goal was to identify majority and minority diamonds with regard to color. Did prices support the resulting scarcity or surplus? 
+My tentative goal was to identify majority and minority diamonds with regard to color. Did prices support the respective scarcity or surplus? 
 
 Barring this, I hoped to design a dashboard that would enable someone to gather pricing information on a specific diamond of their choosing.
 The final product can be found [here](https://public.tableau.com/views/DiamondShoppingDashboard/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link). Feel free to click around to filter the dashboard down. 
