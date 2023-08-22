@@ -52,7 +52,9 @@ Now, what traits did I actually need? The dataset possessed a lot of information
 Between carat, table, depth, x, y, and z, at some point our descriptive coverage becomes superfluous. Best to choose some and see how adequate the choice was during analysis. I decided to keep carat, table percentage, and depth percentage. Understanding that table and depth percentages include the last three metrics helped that decision along. 
 
 ## Analysis
-With the data structured like it was, a pivot table was the easy choice. It would deploy my aggregate functions and answer the questions I had quickly enough. Note: the respective standard deviations for some colors' mean prices were so large that I assumed I had a skewed distribution. This was a close guess, but not quite on the money.
+With the data structured like it was, a pivot table was the easy choice. It would deploy my aggregate functions and answer the questions I had quickly enough. Note: the respective standard deviations for some colors' mean prices were so large that I assumed I had a skewed distribution. This was a close guess, but not quite on the money. 
 
 I have included the pivot tables I generated in this folder, but when it came to visualizations I did not use them for my graphs. 
 
+## Visualizations
+Tableau has many tools that I prefer to other visualization software, especially for dashboards. I'm a big fan of interactive graphs, since I can't exactly present the data in person. They can be found [here](https://public.tableau.com/app/profile/ben.salis/viz/DiamondsVisualization/AveragePrice#1).
