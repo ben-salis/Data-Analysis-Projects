@@ -4,7 +4,8 @@ by the Department of Health and Mental Hygiene (DOHMH). This dataset is the prod
 objective numbers from a time of tension and confusion. They have provided a record of confirmed positive cases, hospitilizations, and deaths as a result of
 COVID-19 in NYC boroughs. Any interested parties may find the raw data and DOHMH supporting documents [here](https://data.cityofnewyork.us/Health/COVID-19-Daily-Counts-of-Cases-Hospitalizations-an/rc75-m7u3).
 
-This dataset ranges from 02/29/2020 to 05/01/2023. I will likely seek more recent data soon, but for now this will do.  
+This dataset ranges from 02/29/2020 to 05/01/2023. I will likely seek more recent data soon, but for now this will do. The page has not 
+been updated since 05/10/2023, but there are sources for current counts. 
 ## Introduction
 My initial goal with this dataset was to design a dashboard. I'd already found shapefiles for the NYC boroughs, and felt that
 a map of the counts could describe the data very well. Which boroughs had more COVID-19 cases? Which years had the largest hospitalizations? 
@@ -40,8 +41,8 @@ Per the User Guide provided by the DOHMH:
 This new dataset would have the information I needed. After some consideration, I decided to restructure the table. My shapefiles would
 need location fields to act as a shared key, and the current form was not great for grouping with SQL. 
 
-[Here](https://github.com/ben-salis/Data-Analysis-Projects/blob/main/COVID19_MTA_Analysis/restructuring-covid19-count.ipynb) is the full code
-for my restructuring. With a few nested loops and keyword searching, I was able to create a dataframe with the form I wanted. Below is a sample:
+[Here](https://github.com/ben-salis/Data-Analysis-Projects/blob/main/NYC%20COVID-19%20and%20MTA%20Joint%20Analysis%20/DOHMH%20COVID-19%20Counts%20NYC/restructuring-covid19-count.ipynb) is the full code
+for my restructuring. With a few nested loops and keyword searching, I was able to create a dataframe with the form I wanted. Below is a generalized sample. I used a borough's abbreviation and name in place of 'Borough' and 'Borough_prefix':
 
 ```py
 for elem in cov_header:
@@ -90,5 +91,4 @@ Still, there were many deaths in the first year, totalling 20,324 across all bor
 protocols improved. 
 
 ## Conclusion
-This was a very sobering endeavor, but insightful nonetheless. It was by working on this dashboard that I was lured to the idea of a
-timeline visualization. I believe I can use the probable counts on the dashboard, but I will think on it. 
+This was a very sobering endeavor, but insightful nonetheless. My idea for a timeline vizualization stemmed from my work with this dataset. I believe I can use the probable counts on the dashboard, but I will think on it. 
