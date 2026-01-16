@@ -9,4 +9,5 @@ Recreating some of my analyses should be easier with that in mind.
 The PA Analysis seeks to take a look back at Public Assistance projects. FEMA used to handle grants through a program named **EMMIE**. This was later replaced in 2017 with **Grants Manager**. Around that time, policy changes had us interested in a few questions. For the purposes of this portfolio, I will provide my analysis and clarify some results as appropriate. The two datasets (split from PA Project Details) are not the same size. EMMIE had a longer stint in FEMA. Still, the question is whether their differences are **significant**. A T-test will be employed at the end discover this. 
 
 - *Ben Salis
+  
 *ongoing*
